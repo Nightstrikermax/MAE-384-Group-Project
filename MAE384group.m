@@ -72,8 +72,6 @@ for cdc = 1:size(dis_params, 1)
     legend('Susceptible', 'Infected', 'Recovered');
     title(['SIR Model (\beta = ', num2str(trans_rate), ', \gamma = ', num2str(rec_rate), ')']);
 end
-
-
 %%Problem 3 setup & eq's
 % rec_rate = Gamma
 %Part 1
@@ -94,7 +92,7 @@ for i=1:length(t)
 k = ((length(t)*(sum(t(i)*infected(t)))-(sum(t(i))*sum(infected(t)))))/((length(t)*sum((t(i)).^2))-(sum(t(i)).^2))
 end
 
-k = ((trans_rate*S)/N) - rec_rate;
+k = ((trans_rate*S0)/Total_pop) - rec_rate;
 log(infected(t)) = log(infected(1)) + k*t;
 
 
