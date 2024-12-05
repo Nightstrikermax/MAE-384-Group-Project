@@ -1,3 +1,4 @@
+%%Problem 1
 % Parameters
 Total_pop = 1000; % Total population
 Sim_days = 100;   % Duration of the simulation in days
