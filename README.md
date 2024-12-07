@@ -21,7 +21,7 @@ Generates a plot for each disease showing the time evolution of 𝑆(𝑡),𝐼(
 
 
 # Part 2
-
+This section of the code used quadratic interpolation to provide smaller errors compared to linear interpolation. Quadratic interpolation uses higher orders of polynomials to give a closer approximation. Linear interpolation means the function will be linear between two coarse time steps and it performs better if the function is almost linear as well
 
 # Part 3
 This part of the code was used to approximate the amount of initially infected individuals using the SIR model with a constant amount of susceptible individuals and the amount of infected at a certain time. This part of the code was also used to help find the transmission rate of a disease based off of the same numbers used to find the individuals who were initially infected 
