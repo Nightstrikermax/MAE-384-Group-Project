@@ -4,6 +4,10 @@
 
 
 # Part 1
+
+This MATLAB code simulates the spread of infectious diseases using the SIR (Susceptible-Infected-Recovered) model. The code generates plots the time evolution of the susceptible, infected, and recovered populations for each disease showing how the populations evolve over a period of 100 days. This code models different diseases by varying the parameters β: Transmission rate (rate at which individuals get infected) and γ: Recovery rate (rate at which infected individuals recover). It also implements Runge-Kutta 4th-order method to solve the SIR equations numerically.
+
+
 Mathematical model that is described by the equations below
 ![image](https://github.com/user-attachments/assets/f29d7841-237d-4007-b91a-c03a594f9939)
 
