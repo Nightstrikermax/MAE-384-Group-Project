@@ -4,12 +4,15 @@ Part 1:
 Mathematical model that is described by the equations below
 ![image](https://github.com/user-attachments/assets/f29d7841-237d-4007-b91a-c03a594f9939)
 
+Code Workflow for part 1:
 Initialization:
 Defines the total population (𝑁=1000).
 Sets initial conditions (𝑆0=990,𝐼0=10,𝑅0=0).
 Defines the parameters (𝛽,𝛾) for the three diseases.
+
 Numerical Solver:
 Implements the 4th-order Runge-Kutta method to solve the SIR equations iteratively over 100 days.
+
 Visualization:
 Generates a plot for each disease showing the time evolution of 𝑆(𝑡),𝐼(𝑡), and𝑅(𝑡).
 
